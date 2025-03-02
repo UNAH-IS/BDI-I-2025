@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C78CDB90-7141-47D6-9D25-EE00D1985260" name="TBL_TRABAJOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:27:56 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TRABAJO" id="A5FD927A-2BFE-037B-8AF0-9913433921A6">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:29:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="46ADDAE3-76ED-3121-8BE3-6180D94D8E32">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:30:09 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2706C480-4C82-F74E-9263-9A70FC190740" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="NOMBRE_TRABAJO" id="8791027C-39CE-A26D-37C2-05F93962D724">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:29:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPRESA" id="70AE55AB-303F-0E81-A143-83A91324BDF9">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:29:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="5BEBF396-C6D2-B4D6-F0AB-755BB9E719B8">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:30:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="A1D41304-5B4B-8A3F-F056-E9E436E77055">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:30:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F4405B3-3640-73AA-6CAA-5C3802E84B7D" name="TBL_TRABAJOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:29:52 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5FD927A-2BFE-037B-8AF0-9913433921A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D203C18-3A71-6A4E-C1E2-0AE32701E2C3" name="TBL_TRABAJOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:30:09 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46ADDAE3-76ED-3121-8BE3-6180D94D8E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

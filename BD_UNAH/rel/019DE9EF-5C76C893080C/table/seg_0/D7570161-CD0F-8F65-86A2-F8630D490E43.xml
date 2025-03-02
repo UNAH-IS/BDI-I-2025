@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7570161-CD0F-8F65-86A2-F8630D490E43" name="TBL_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:24:34 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="183A5258-4DCE-1AE9-238D-33678D008586">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_LUGAR" id="7E882667-9A2F-0C78-6066-37F96ACF7397">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="110F4BA1-1A30-F9E1-EC72-D3739BFAC851">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="0CC7AA43-94BF-7649-3922-0B041E465454">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTITUD" id="2CD017DB-A29D-4B00-F542-C61648816A7D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="EE0B5BBA-13C1-8E37-B5D6-2998A35353EF">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65489DCD-D006-9FDA-4FDC-4C272E4AAE51" referredColumn="75C8B67F-2165-44DB-C3D8-88AA633A6A93"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="23DDCC65-F554-31C6-B92D-4821D1D68E98">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:26:07 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C9A5079-D78E-2B16-9469-74F2C06ECDEC" referredColumn="183A5258-4DCE-1AE9-238D-33678D008586"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E88192C3-8B0D-7C06-54F4-B5840C2069D6" name="TBL_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183A5258-4DCE-1AE9-238D-33678D008586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EB15B46-670D-4191-8963-0935946DFDB4" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:25:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0B5BBA-13C1-8E37-B5D6-2998A35353EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="469CC3CA-31E7-1A97-B8E2-902283C168B2" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:26:07 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23DDCC65-F554-31C6-B92D-4821D1D68E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

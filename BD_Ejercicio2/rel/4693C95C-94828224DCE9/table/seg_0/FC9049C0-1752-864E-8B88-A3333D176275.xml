@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC9049C0-1752-864E-8B88-A3333D176275" name="TBL_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:12:36 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="7493529D-B73C-C1F7-ADCC-169C1E9CD1D1">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="0E55EB5D-B8FE-38A1-267D-5F8D77372B0F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="50A140E8-538B-8BE6-826A-9FD85F7E6EEF">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="E6289D80-EF7D-F452-332E-9CF9DE73B6B4">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="CD58695F-B1B8-3741-1CE5-245D76F3047D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="901768EF-E083-9B40-8089-D8269865FDCD">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="C9AEB0C3-7857-A83B-1D10-915F8586FC72">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NICKNAME" id="0DE2C2D8-A46D-D87D-0E70-DBD1DBDAFE55">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="1141AD5C-E500-E2A9-745C-4C643755118F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_RED_SOCIAL" id="66CB80B1-AD19-28DC-877A-F083FFC14304">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:15:34 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F73367C-FA87-753C-1B93-21EB6ECE91E7" referredColumn="D110DE7A-821E-DA48-7CF1-D2C949AD0B71"/>
+</associations>
+</Column>
+<Column name="TOKEN_RED_SOCIAL" id="B1982588-F69A-DE65-6256-8184D05D0CF7">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:16:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="CBB666B6-C8D9-E266-A5C4-3617CC6284AA">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:46 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E10103DA-872E-0983-02EE-19342B88D9D2" referredColumn="A5F52F91-C7CB-CF21-53DE-92D9982B4200"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="11DB7542-98F8-5C27-4EC2-EB4FA8792BA3">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:53 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB1D9C8E-81FB-51A6-1AFE-7EFA1231EA85" referredColumn="A5F52F91-C7CB-CF21-53DE-92D9982B4200"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BEC910D6-5809-D210-5451-5BDEE720FDAF" name="TBL_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:14:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7493529D-B73C-C1F7-ADCC-169C1E9CD1D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C1AD4F2-36FC-3CD2-6574-B9486D5D1ACE" name="TBL_USUARIOS_TBL_REDES_SOCIALES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:15:34 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66CB80B1-AD19-28DC-877A-F083FFC14304"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CF0946E-1CB7-9F29-655F-CD183B7BB080" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:46 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBB666B6-C8D9-E266-A5C4-3617CC6284AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91B138E5-DB89-C2D0-1DC2-C58707126764" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:53 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11DB7542-98F8-5C27-4EC2-EB4FA8792BA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

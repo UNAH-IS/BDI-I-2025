@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0427D6D2-7C12-B699-7BF3-3BE37ADA2EB8" containerWithKeyObject="0627FDC1-A197-988D-07C9-3DDC6B52603C" localFKIndex="46D08375-E688-4AB9-C912-CFB3F1186914" name="TBL_ENTREGAS_TBL_ASIGNACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:39 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<referredTableLongName>TBL_ASIGNACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC0476DF-243C-AD5E-D56F-F66BB12B79BE</referredTableID>
+<keyObject>6EBF1365-1D05-0122-B954-D07136626AFE</keyObject>
+<referredKeyID>6EBF1365-1D05-0122-B954-D07136626AFE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_ASGNACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

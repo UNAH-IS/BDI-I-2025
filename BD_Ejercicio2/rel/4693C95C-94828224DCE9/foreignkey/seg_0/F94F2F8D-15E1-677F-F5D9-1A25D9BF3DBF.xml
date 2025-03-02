@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F94F2F8D-15E1-677F-F5D9-1A25D9BF3DBF" containerWithKeyObject="44EBB778-8BC0-1FB2-9E3E-75EB99DDCDAB" localFKIndex="81FC313F-8769-1523-F02E-0F861A4846DB" name="TBL_CURSOS_TBL_TUTORES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:29:33 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<referredTableLongName>TBL_TUTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>820D00C5-EF8A-E51A-A04D-D86DC27BA16A</referredTableID>
+<keyObject>08DDE5C0-E0CB-CD62-4B29-8F9B7D260B4E</keyObject>
+<referredKeyID>08DDE5C0-E0CB-CD62-4B29-8F9B7D260B4E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TUTOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

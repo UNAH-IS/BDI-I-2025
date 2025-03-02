@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0627FDC1-A197-988D-07C9-3DDC6B52603C" name="TBL_ENTREGAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:36:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ENTREGA" id="C531F747-73F5-2E1D-A136-C5193BF8C4C8">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ASGNACION" id="3C076E2D-0E54-880B-CE13-FC5967465D1D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:39 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0427D6D2-7C12-B699-7BF3-3BE37ADA2EB8" referredColumn="55DF8294-D215-4F15-42FE-3F77533584B6"/>
+</associations>
+</Column>
+<Column name="CODIGO_EXAMEN" id="B2F3C703-D123-2F23-DCA3-647EEA2D127F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F290981-B6B2-4DFE-54D1-09002737FA23" referredColumn="FA7C46F6-022B-4CD2-5C45-E7622E7B9C3F"/>
+</associations>
+</Column>
+<Column name="FECHA_ENTREGA" id="A34FFAB9-B040-30FC-7ED2-79828E8E840E">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALIFICACION" id="4E8BB4A3-A985-3AA2-0A65-38537FA14E02">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMENTARIO" id="C35100E7-3B28-AD1C-2649-E91D82AD0F99">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTUDIANTE" id="954423BA-D0FE-53D8-DA05-B7296D48757A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:38:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6528342B-E709-4489-7655-EEB3B08F914F" referredColumn="98B3BA89-C71F-AD00-AA44-5D1A5B70F61B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB3E9127-741D-4B2C-49B4-5F07DAB8EC09" name="TBL_ENTREGAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C531F747-73F5-2E1D-A136-C5193BF8C4C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46D08375-E688-4AB9-C912-CFB3F1186914" name="TBL_ENTREGAS_TBL_ASIGNACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:39 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C076E2D-0E54-880B-CE13-FC5967465D1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B53F5253-5E54-2C33-C152-A6EFE2EC597D" name="TBL_ENTREGAS_TBL_EXAMENES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:37:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2F3C703-D123-2F23-DCA3-647EEA2D127F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD69D770-D6BD-6074-A4D9-32EE8CE261DF" name="TBL_ENTREGAS_TBL_ESTUDIANTES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:38:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="954423BA-D0FE-53D8-DA05-B7296D48757A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="477CB5FB-776D-B4C6-AE42-D860ECCF528A" name="TBL_ETIQUETAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:03 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ETIQUETA" id="75D27A31-C311-0591-4C50-E6D158150241">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:37 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ETIQUETA" id="1EFDE0D1-9F5C-F9A6-CF27-052CE3E0DBF8">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:37 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="614AC9AE-465D-C08B-1545-A7E90D3DC3E0">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:50 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D976A6EE-CBA7-CB67-3C54-414DD5CE173D" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_ETIQUETO" id="7334F23D-F76E-66CD-B170-387C83AD440F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BE74B3C-06DE-9DD9-80E1-D030072A9364" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_FOTOGRAFIA" id="0EE565FD-157C-13E6-7A85-0D29BB10614A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:50:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED7C5211-6FF0-9B51-4ACB-05173FC4A585" referredColumn="331CDC80-0013-C773-698D-157D20205C21"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALBUM" id="CE40BDB9-452D-8EF4-C21A-DB35E3F46BDB">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:50:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0159645F-E8A3-E88A-7501-B55EC595BFB5" referredColumn="BD17ED52-5C0C-2F70-91F4-CDB450BADD18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57CFFBC0-767C-D845-2AEC-7B007D2E5A90" name="TBL_ETIQUETAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:45 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75D27A31-C311-0591-4C50-E6D158150241"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4070B77-4DF7-B949-4012-C4629CE083DF" name="TBL_ETIQUETAS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:50 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="614AC9AE-465D-C08B-1545-A7E90D3DC3E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5057EE73-DFA0-A93E-86BC-89CD3F65D1CE" name="TBL_ETIQUETAS_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:49:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7334F23D-F76E-66CD-B170-387C83AD440F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D707A6D3-4073-F1B3-F1A4-70373C1307F3" name="TBL_ETIQUETAS_TBL_FOTOGRAFIAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:50:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EE565FD-157C-13E6-7A85-0D29BB10614A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B93BD904-1877-B90F-A7D2-CA1AE00F8E30" name="TBL_ETIQUETAS_TBL_ALBUMES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:50:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE40BDB9-452D-8EF4-C21A-DB35E3F46BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

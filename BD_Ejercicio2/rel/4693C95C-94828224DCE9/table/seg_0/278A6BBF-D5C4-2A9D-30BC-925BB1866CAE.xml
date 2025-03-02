@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="278A6BBF-D5C4-2A9D-30BC-925BB1866CAE" name="TBL_ARCHIVOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:46:15 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="AFA4D24B-6A55-BEF5-DFE7-15364094876B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:20 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2D581AA-3C97-737B-E220-EDAA14CBE923" referredColumn="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</associations>
+</Column>
+<Column name="ARCHIVO" id="FB5713F1-9A60-3CA4-DE81-F0B2223E299B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:46:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ARCHIVO" id="F1A1CDAD-31C4-430C-27C6-93DB95D6B50F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:46:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANIO" id="67FFF1C4-B368-39FB-E602-C52757E5911C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:46:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="04B53E4D-7B07-BBC9-2201-ECDB3877CB8C" name="TBL_ARCHIVOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:48:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA4D24B-6A55-BEF5-DFE7-15364094876B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C711058-04FE-2919-1902-1EE8834DC9B3" name="TBL_ARCHIVOS_TBL_CONTENIDOS_SECCION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:20 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFA4D24B-6A55-BEF5-DFE7-15364094876B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

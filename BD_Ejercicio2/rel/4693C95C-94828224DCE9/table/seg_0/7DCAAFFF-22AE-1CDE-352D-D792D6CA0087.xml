@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DCAAFFF-22AE-1CDE-352D-D792D6CA0087" name="TBL_PUBLICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:27:08 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="BD624AC9-3E15-B320-5DE1-5EA111B83BD0">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CONTENIDO" id="885304A3-12A0-38CA-5273-DAD72CB67E8D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:34:11 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEA7838C-39F1-B11E-0CC5-29692A6D4408" referredColumn="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</associations>
+</Column>
+<Column name="TITULO_PUBLICACION" id="82216413-4211-C2C6-D2D1-76FB8295FB86">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="F519D674-49C7-13CB-FF1B-C9CF0BAAB7C5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PUBLICACION" id="F4C76E21-0723-67A4-80D7-D39856E707C4">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TUTOR" id="E0FA0AB6-2BDB-12D5-F488-3129B0B2807B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:05 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7EF164D-F077-5736-3D75-198A0390456C" referredColumn="F477742A-B584-3077-14B9-2E2CD092B7EF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF610B33-2F83-5448-3E7D-8D5094A70064" name="TBL_PUBLICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD624AC9-3E15-B320-5DE1-5EA111B83BD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D635A55E-1C63-52FE-2D97-8E12ED128681" name="TBL_PUBLICACIONES_TBL_TUTORES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:05 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0FA0AB6-2BDB-12D5-F488-3129B0B2807B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="823E9677-40F2-E8AB-DF1B-2536D5C8D342" name="TBL_PUBLICACIONES_TBL_CONTENIDOS_SECCION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:34:11 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885304A3-12A0-38CA-5273-DAD72CB67E8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

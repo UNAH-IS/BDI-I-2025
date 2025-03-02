@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B95A626-2E74-BA98-97B0-EFCE664EF9E3" name="TBL_MENSAJES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:39:53 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MENSAJE" id="8B6F80E9-78B5-9863-2E9D-2F0EFABD9CF5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:06 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_MENSAJE" id="BBB472A8-7C59-0507-2F8A-1C2284CE665E">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:06 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="BE21E14D-5C2F-691B-56DF-46F81181CE38">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:06 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO_EMISOR" id="198181BF-1C25-229A-83D1-AEDD4C9D1572">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:25 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F484FA3-11A7-8961-8E5B-4EE52FF22450" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO_RECEPTOR" id="975AEEF7-72F3-61E2-FABA-867F3F8FBB47">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="723FCC70-4D64-5193-B26A-CA6B64375CAA" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_MENSAJE_SUPERIOR" id="4B497F76-0D98-0A9B-83CA-241CBF34CCE4">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:43:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6BF3BC9-E908-B00F-03DF-6D6ACCB69C7B" referredColumn="8B6F80E9-78B5-9863-2E9D-2F0EFABD9CF5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D19EF8F3-73B3-1917-B402-A1F582BBC1C9" name="TBL_MENSAJES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:15 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B6F80E9-78B5-9863-2E9D-2F0EFABD9CF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B2D3CDA-ECE6-34DD-506F-C5367A940A28" name="TBL_MENSAJES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:25 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="198181BF-1C25-229A-83D1-AEDD4C9D1572"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CE6AEC9-FFB2-1379-CC45-AE459A800DF3" name="TBL_MENSAJES_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="975AEEF7-72F3-61E2-FABA-867F3F8FBB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C84EE6F-FCC9-42C8-BFE9-813AD66B1333" name="TBL_MENSAJES_TBL_MENSAJES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:43:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B497F76-0D98-0A9B-83CA-241CBF34CCE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

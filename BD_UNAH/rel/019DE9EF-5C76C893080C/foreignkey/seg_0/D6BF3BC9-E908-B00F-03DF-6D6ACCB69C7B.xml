@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6BF3BC9-E908-B00F-03DF-6D6ACCB69C7B" containerWithKeyObject="1B95A626-2E74-BA98-97B0-EFCE664EF9E3" localFKIndex="6C84EE6F-FCC9-42C8-BFE9-813AD66B1333" name="TBL_MENSAJES_TBL_MENSAJES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:43:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_MENSAJES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B95A626-2E74-BA98-97B0-EFCE664EF9E3</referredTableID>
+<keyObject>D19EF8F3-73B3-1917-B402-A1F582BBC1C9</keyObject>
+<referredKeyID>D19EF8F3-73B3-1917-B402-A1F582BBC1C9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_MENSAJE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

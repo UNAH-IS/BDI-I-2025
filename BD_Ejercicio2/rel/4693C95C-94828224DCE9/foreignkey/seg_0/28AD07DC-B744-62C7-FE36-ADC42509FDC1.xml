@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="28AD07DC-B744-62C7-FE36-ADC42509FDC1" containerWithKeyObject="44EBB778-8BC0-1FB2-9E3E-75EB99DDCDAB" localFKIndex="D72878B5-D84C-E377-E95F-A797D9F58169" name="TBL_CURSOS_TBL_CATEGORIAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:23:08 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<referredTableLongName>TBL_CATEGORIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>575B13EC-7686-23B2-F68F-47CEF4882060</referredTableID>
+<keyObject>13FB2F95-19A7-CC22-1220-F886F0302DFB</keyObject>
+<referredKeyID>13FB2F95-19A7-CC22-1220-F886F0302DFB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_CATEGORIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

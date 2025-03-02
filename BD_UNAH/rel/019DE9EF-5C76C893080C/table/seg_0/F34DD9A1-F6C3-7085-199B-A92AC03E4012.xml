@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F34DD9A1-F6C3-7085-199B-A92AC03E4012" name="TBL_ESTADOS_SOLICITUDES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:38:09 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_SOLICITUD" id="E3562F82-5ADD-8489-0764-E5BA7729B190">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:38:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO" id="105113A7-7A63-8FA6-6D0A-FEC59AA2ACB6">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:38:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B89040CF-21A3-1471-6BB1-FD5F0AABE912" name="TBL_ESTADOS_SOLICITUDES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:38:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3562F82-5ADD-8489-0764-E5BA7729B190"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

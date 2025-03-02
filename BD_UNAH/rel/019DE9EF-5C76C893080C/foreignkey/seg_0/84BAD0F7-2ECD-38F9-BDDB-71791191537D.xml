@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="84BAD0F7-2ECD-38F9-BDDB-71791191537D" containerWithKeyObject="B68AD506-71B7-5F71-A696-18DC81C7C83C" localFKIndex="01B2FC56-8B64-D8A8-C459-C930CEC3C736" name="TBL_REACCIONES_TBL_FOTOGRAFIAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:46:16 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<referredTableLongName>TBL_FOTOGRAFIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5993F27-E830-1BFF-0FE6-3118A2754762</referredTableID>
+<keyObject>05BF68FD-9854-BDCA-4AED-919E8C0ACDAF</keyObject>
+<referredKeyID>05BF68FD-9854-BDCA-4AED-919E8C0ACDAF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_FOTOGRAFIA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44EBB778-8BC0-1FB2-9E3E-75EB99DDCDAB" name="TBL_CURSOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:20:56 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CURSO" id="E09D50C3-4276-22B2-1414-60F1316AC200">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="2B326670-160C-3DE5-969F-DC4243A0EF5B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:23:08 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28AD07DC-B744-62C7-FE36-ADC42509FDC1" referredColumn="BFE06A01-67A6-0F72-777C-6F2A70F8904C"/>
+</associations>
+</Column>
+<Column name="CODIGO_TUTOR" id="F5500C22-34A8-4473-6AD6-3F675C510D14">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:29:33 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F94F2F8D-15E1-677F-F5D9-1A25D9BF3DBF" referredColumn="F477742A-B584-3077-14B9-2E2CD092B7EF"/>
+</associations>
+</Column>
+<Column name="NOMBRE_CURSO" id="737542A5-AF1D-6D08-0032-3D8BBF27586F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="A5B983B7-DE9B-0ABA-3428-BAFE43B22FDC">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="97C9AE97-0045-A39E-3739-2471F1128C21">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="B37F23F9-4A27-2CEA-AF27-3D0CA98276BF">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24318EE3-2D48-20D7-A1BF-CA7B3EA11873" name="TBL_CURSOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:22:32 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E09D50C3-4276-22B2-1414-60F1316AC200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D72878B5-D84C-E377-E95F-A797D9F58169" name="TBL_CURSOS_TBL_CATEGORIAS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:23:08 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B326670-160C-3DE5-969F-DC4243A0EF5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81FC313F-8769-1523-F02E-0F861A4846DB" name="TBL_CURSOS_TBL_TUTORES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:29:33 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5500C22-34A8-4473-6AD6-3F675C510D14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6F091D6C-31D1-E4E3-E95F-F94E385AA479" name="TBL_EMPLEADOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:21:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="BC1D0C2B-802A-9606-690D-6E20E4317866">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="E1BE5E8A-85CB-E902-A4D6-DE7FDC326C0D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="2E360A74-43CF-833B-F666-B9624B270249">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="66DAF2E2-C5CE-8F35-1E09-D4B74DD56C82">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="266A0237-DBED-46EF-0A83-CCDC445EA443">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:19 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EMPLEADO_SUPERIOR" id="B22A1CEC-9A66-CF7F-8A3D-48DD6DFC6447">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:35:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F5C65C6-9F7D-77FF-5A46-265F8D1404B4" referredColumn="BC1D0C2B-802A-9606-690D-6E20E4317866"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARGO" id="91F4C490-21EA-D01A-3D3B-705F42D5D127">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:37:02 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="308ABD8A-5CFF-475B-B9DE-56F72446317C" referredColumn="736C12F6-5155-18FC-FE05-9AE6018EC328"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F6B144D-FC31-6A3B-EF10-E350EDFE6CD3" name="TBL_EMPLEADOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:27 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC1D0C2B-802A-9606-690D-6E20E4317866"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEA80852-D9C6-BF79-19E9-128ACE6E7635" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:35:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B22A1CEC-9A66-CF7F-8A3D-48DD6DFC6447"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BBFA934-6C9A-E383-451C-D57216B1FFC1" name="TBL_EMPLEADOS_TBL_CARGOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:37:02 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F4C490-21EA-D01A-3D3B-705F42D5D127"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

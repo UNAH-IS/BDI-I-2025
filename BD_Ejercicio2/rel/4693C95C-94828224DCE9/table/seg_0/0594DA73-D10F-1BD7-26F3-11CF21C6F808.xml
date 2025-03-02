@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0594DA73-D10F-1BD7-26F3-11CF21C6F808" name="TBL_ESTUDIANTES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:25:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTUDIANTE" id="98B3BA89-C71F-AD00-AA44-5D1A5B70F61B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:26:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71977BAE-082C-81F7-3E31-821E0B930EFA" referredColumn="7493529D-B73C-C1F7-ADCC-169C1E9CD1D1"/>
+</associations>
+</Column>
+<Column name="CANTIDAD_CURSOS_MATRICULAS" id="08D2B85B-8701-9489-016D-93E3874AB980">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:26:34 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_CURSOS_APROBADOS" id="3CDDB9C2-62DB-478D-D29F-F18DD83EAB2C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:26:34 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F7C4DA9-5774-EE3B-3A45-14BEA85F2F7E" name="TBL_ESTUDIANTES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:27:32 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98B3BA89-C71F-AD00-AA44-5D1A5B70F61B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D2B053C-E216-1062-842A-1ACCDAFEC5BF" name="TBL_ESTUDIANTES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:26:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98B3BA89-C71F-AD00-AA44-5D1A5B70F61B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70CA2D7A-B62D-11AF-1C65-914AB96FC749" name="TBL_REGIONES_TEXTO">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:47 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_REGION_TEXTO" id="D4AF9665-F58B-B082-1BA5-8AD59DC3182A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:15 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9034D573-F0ED-F047-BB94-3D90D501ABB3" referredColumn="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</associations>
+</Column>
+<Column name="TEXTO_CONTENIDO" id="C036D206-D777-EC83-7992-BD5DC1DB89C0">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:46:09 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38424567-BFAC-62D8-75EA-9B1EDA041B89" name="TBL_REGIONES_TEXTO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:48:46 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AF9665-F58B-B082-1BA5-8AD59DC3182A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAB1A395-90EB-1D69-D1E3-36C60982022F" name="TBL_REGIONES_TEXTO_TBL_CONTENIDOS_SECCION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:15 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4AF9665-F58B-B082-1BA5-8AD59DC3182A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

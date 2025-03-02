@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8658C1F-0355-356F-F364-A57F17F13ECE" name="TBL_MAESTROS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:22:43 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MAESTRO" id="FF782091-32D7-E4FF-D3FF-FA83FFFD1B74">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:29:41 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7AB74FD-3A94-3A17-A4BF-4ADE9B9E1BDC" referredColumn="BC1D0C2B-802A-9606-690D-6E20E4317866"/>
+</associations>
+</Column>
+<Column name="TITULARIDAD" id="684B1360-8766-4DAC-F617-49EF8D397A45">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:24:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACULTAD" id="E42E93BB-C4DE-20CE-BAEB-B98D2CFAAA02">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:24:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARRERA" id="1A20FAC7-DE67-BB63-25E2-7F4129056892">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:24:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDADES_VALORATIVAS" id="AF423DD6-4C83-47CC-F5FC-D7EB19689A91">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:24:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BCF0610-93A1-8A13-DBE4-266A6D921BC0" name="TBL_MAESTROS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:33:04 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF782091-32D7-E4FF-D3FF-FA83FFFD1B74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="106F620E-257E-AB20-605B-498643DF45DB" name="TBL_MAESTROS_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:29:41 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF782091-32D7-E4FF-D3FF-FA83FFFD1B74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

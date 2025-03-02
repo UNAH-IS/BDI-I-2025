@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A29285E-30B5-2C80-3773-8869DCBEEDB6" name="TBL_CONTENIDOS_SECCION">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:41:55 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CONTENIDO" id="9E2C38DF-495C-D458-88F0-483D213B7C65">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:42:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SECCION" id="6FAF1553-BCEC-C608-C4D2-3C0107F05C09">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:49:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55A6BE23-981E-29F6-B0EC-85260D35EE5E" referredColumn="CFEB726A-8AED-8E58-9107-6740A32A3291"/>
+</associations>
+</Column>
+<Column name="TITULO_CONTENIDO" id="33EA0C08-433E-ED37-C361-E1F65C9C0BF7">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:42:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="ACB6D850-7B54-5C15-35CF-7DA51752B665">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:42:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PUBLICACION" id="DAEB8EEF-ACE6-58D0-166A-3DBF64C0F27C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:42:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C303F06E-09D2-42AB-D668-F5368A19CE1E" name="TBL_CONTENIDOS_SECCION_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:42:31 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07ED94FC-A238-F1F2-CC8E-AC3560D355F1" name="TBL_CONTENIDOS_SECCION_TBL_SECCIONES_CONTENIDO_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:49:26 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FAF1553-BCEC-C608-C4D2-3C0107F05C09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

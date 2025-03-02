@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6B53773-8B8D-B719-83E8-8D41DF11BF5E" name="TBL_PUBLICACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:40:17 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PUBLICACION" id="2154D442-5937-68AC-378B-291BB3422115">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="CCB8109C-39D0-750F-28D6-04BEE5764D1F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72590139-3923-AACC-13B0-C1BD6893CADE" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="TEXTO_PUBLICACION" id="869E6CFD-3A8D-ACCA-EA4C-49176AB81D1A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_PUBLICACION" id="30909BB8-E6D2-6906-9E92-91448920003C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="470EEA03-D762-C7A2-4DE9-B859E083B0AB" name="TBL_PUBLICACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2154D442-5937-68AC-378B-291BB3422115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91A3800A-81E0-10BD-DB5B-844BCC3DE416" name="TBL_PUBLICACIONES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:41:59 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCB8109C-39D0-750F-28D6-04BEE5764D1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

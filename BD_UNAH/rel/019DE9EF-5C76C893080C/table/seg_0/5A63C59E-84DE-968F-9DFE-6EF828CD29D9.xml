@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A63C59E-84DE-968F-9DFE-6EF828CD29D9" name="TBL_ALBUMES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:42:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ALBUM" id="BD17ED52-5C0C-2F70-91F4-CDB450BADD18">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="9FD4088B-DAA8-AFBF-A046-B5E63ABFD469">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="871F44A2-B24F-3557-2D6B-59B5C9BFC7E5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="B542D05D-5134-3811-CD54-2C244A557629">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="5BD37084-3E2E-51EC-0101-429BA18F100A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:47:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83D20574-01B9-FA89-007D-9FE289E8DD26" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E12D4EA-3021-582A-D4A7-3C5EC2C48E48" name="TBL_ALBUMES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:23 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD17ED52-5C0C-2F70-91F4-CDB450BADD18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E7E8FC-D235-0FE9-DD22-8E1E8F8E64E6" name="TBL_ALBUMES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:47:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BD37084-3E2E-51EC-0101-429BA18F100A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

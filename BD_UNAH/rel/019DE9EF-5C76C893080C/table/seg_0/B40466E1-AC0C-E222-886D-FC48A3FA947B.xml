@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B40466E1-AC0C-E222-886D-FC48A3FA947B" name="TBL_COMENTARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:32:11 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COMENTARIO" id="50A7816E-78D5-8AAE-852D-8CFB926E0C72">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:32:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="8182F03D-2CD6-2AFB-A6F8-7E9510AFF7AC">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:33:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22379256-3635-9557-CCB5-10AA3BA4444C" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="BD9E052F-E2E1-A6E9-8CD2-BBD4F93E96D2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:33:07 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5DBE527-E4A8-53A5-77D0-5C4A771DCFA5" referredColumn="2154D442-5937-68AC-378B-291BB3422115"/>
+</associations>
+</Column>
+<Column name="COMENTARIO" id="FFDDDC65-CC58-6DAA-82C9-65D9CF97A1E0">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:32:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_COMENTARIO" id="871F792C-D74C-0282-1C57-5425268B4DAD">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:32:46 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_COMENTARIO_SUPERIOR" id="A50E635D-E108-2654-5715-56429682FC88">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:38:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="577AE996-BC7E-DB3B-8EA1-B707D42C1BC4" referredColumn="50A7816E-78D5-8AAE-852D-8CFB926E0C72"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="547C6CA3-701E-97BE-E3CC-061D9E196984" name="TBL_COMENTARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:32:55 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50A7816E-78D5-8AAE-852D-8CFB926E0C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34C3D8C7-CF65-2688-80FA-CB673339DBA4" name="TBL_COMENTARIOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:33:00 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8182F03D-2CD6-2AFB-A6F8-7E9510AFF7AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D847BDD-DCE3-80E8-5947-2074F67FCDA5" name="TBL_COMENTARIOS_TBL_PUBLICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:33:07 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD9E052F-E2E1-A6E9-8CD2-BBD4F93E96D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="196D9B19-A4EA-9367-AD1F-29F6E4C98416" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:38:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A50E635D-E108-2654-5715-56429682FC88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

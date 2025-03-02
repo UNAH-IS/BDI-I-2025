@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F73367C-FA87-753C-1B93-21EB6ECE91E7" containerWithKeyObject="FC9049C0-1752-864E-8B88-A3333D176275" localFKIndex="7C1AD4F2-36FC-3CD2-6574-B9486D5D1ACE" name="TBL_USUARIOS_TBL_REDES_SOCIALES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:15:34 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<referredTableLongName>TBL_REDES_SOCIALES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B455968-68D5-9401-F866-9E2017AC6EBB</referredTableID>
+<keyObject>333BDB8B-3AB7-FBFC-B6C1-69FB1047F17E</keyObject>
+<referredKeyID>333BDB8B-3AB7-FBFC-B6C1-69FB1047F17E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_RED_SOCIAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

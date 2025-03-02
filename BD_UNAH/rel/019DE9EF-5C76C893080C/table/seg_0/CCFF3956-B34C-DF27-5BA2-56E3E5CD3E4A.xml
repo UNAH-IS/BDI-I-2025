@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCFF3956-B34C-DF27-5BA2-56E3E5CD3E4A" name="TBL_GRUPOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:34:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRUPO" id="933ABC4E-CC73-B74B-1DF3-E9F83AE657B9">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:35:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ADMINISTRADOR" id="B99B63A8-3108-779B-3E62-E842E07EC673">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:38:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F205F3C-1FDD-94A4-A2C2-1E367420FA29" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="NOMBRE_GRUPO" id="388A1B60-8325-CA1A-1C01-8FFA188CB2FF">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:35:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="BC390119-FD04-BAC3-B69D-09179F841259">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:35:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="EACC33DB-D397-E184-BF67-FB8633E9AC6B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:35:32 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E670FE4-3331-5C44-A552-1B0FD947BD13" name="TBL_GRUPOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:35:40 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="933ABC4E-CC73-B74B-1DF3-E9F83AE657B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B45B63-D50C-93C7-90EA-1C9A6E225903" name="TBL_GRUPOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:38:29 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B99B63A8-3108-779B-3E62-E842E07EC673"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

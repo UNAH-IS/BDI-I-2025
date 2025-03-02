@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC0476DF-243C-AD5E-D56F-F66BB12B79BE" name="TBL_ASIGNACIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:07 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ASGNACION" id="55DF8294-D215-4F15-42FE-3F77533584B6">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:10 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0C23601-4803-3C6D-BC40-FB6CAB22486E" referredColumn="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</associations>
+</Column>
+<Column name="FECHA_LIMITE_ENTREGA" id="B43266BD-3043-6150-EE33-CA6CAF742E26">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:40 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO" id="B5CE99A3-DC37-5C2E-4207-D78C71316C38">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:40 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EBF1365-1D05-0122-B954-D07136626AFE" name="TBL_ASIGNACIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:48:33 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DF8294-D215-4F15-42FE-3F77533584B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BC1D589-EA90-8559-9AB9-8796216714BD" name="TBL_ASIGNACIONES_TBL_CONTENIDOS_SECCION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:10 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DF8294-D215-4F15-42FE-3F77533584B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

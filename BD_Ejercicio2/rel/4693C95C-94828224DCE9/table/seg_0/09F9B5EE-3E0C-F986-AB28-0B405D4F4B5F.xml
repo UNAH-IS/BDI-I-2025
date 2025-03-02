@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09F9B5EE-3E0C-F986-AB28-0B405D4F4B5F" name="TBL_LIKES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:15 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LIKE" id="B5DC0E1C-7B8E-046C-AB74-CB52251947BE">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="AC054984-6D1E-10F0-3755-24091DFAF9C1">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:25 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="284CB1AE-B400-21D8-E078-32ECA9D4954B" referredColumn="7493529D-B73C-C1F7-ADCC-169C1E9CD1D1"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUBLICACION" id="032AB58C-452A-F09B-8229-49D70DB0D3E0">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:58 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28647CD1-5DFD-0125-F039-5FAF1F6C4A3D" referredColumn="BD624AC9-3E15-B320-5DE1-5EA111B83BD0"/>
+</associations>
+</Column>
+<Column name="FECHA_LIKE" id="F5C35657-BBC3-EF52-C3C7-F18FCE47ACC3">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D265AA5-8DB1-6D1C-3739-847E659DA365" name="TBL_LIKES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:28:52 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5DC0E1C-7B8E-046C-AB74-CB52251947BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1B68DCC-815D-FBF8-B8CD-7EDDA0DE2AB0" name="TBL_LIKES_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:25 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC054984-6D1E-10F0-3755-24091DFAF9C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFC1513F-2EFD-34CD-B2D0-7AAAE45C8C0A" name="TBL_LIKES_TBL_PUBLICACIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-18 00:30:58 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="032AB58C-452A-F09B-8229-49D70DB0D3E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

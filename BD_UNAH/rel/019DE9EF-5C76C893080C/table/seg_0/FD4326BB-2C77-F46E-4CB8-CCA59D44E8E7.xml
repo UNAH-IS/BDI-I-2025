@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD4326BB-2C77-F46E-4CB8-CCA59D44E8E7" name="TBL_AMIGOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:33:12 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="D507D138-4C9E-DCD6-F003-9B68D3784445">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:36:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4943395C-FC4B-1A50-19A7-AE8E06D15F07" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_AMIGO" id="F521C632-05AD-93C7-C5B0-B1D4327DAA41">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:36:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C942B3F7-E414-9678-A035-11023735972A" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTADO_SOLICITUD" id="0FEC6216-C1F1-3C6E-0128-2EB4DF99064B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:39:02 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ECDDB28-813C-5100-F48E-D0A3FB63553D" referredColumn="E3562F82-5ADD-8489-0764-E5BA7729B190"/>
+</associations>
+</Column>
+<Column name="FECHA_SOLICITUD" id="5E35B7AE-A84A-EBAA-9A54-3C929F63A21E">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:37:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46D0F1A6-113C-7E56-BC02-A983B41A5135" name="TBL_AMIGOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:37:18 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D507D138-4C9E-DCD6-F003-9B68D3784445"/>
+<colUsage columnID="F521C632-05AD-93C7-C5B0-B1D4327DAA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B09B44E3-E727-2724-DF55-5D55B13C2FA3" name="TBL_AMIGOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:36:43 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D507D138-4C9E-DCD6-F003-9B68D3784445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A15DAA2-E557-D6EC-91AB-BAC45BD48451" name="TBL_AMIGOS_TBL_USUARIOS_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:36:48 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F521C632-05AD-93C7-C5B0-B1D4327DAA41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A320227-A80D-AA45-7019-945777A9C2CA" name="TBL_AMIGOS_TBL_ESTADOS_SOLICITUDES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:39:02 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FEC6216-C1F1-3C6E-0128-2EB4DF99064B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

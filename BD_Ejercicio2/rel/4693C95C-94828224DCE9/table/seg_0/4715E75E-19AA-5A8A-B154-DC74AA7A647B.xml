@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4715E75E-19AA-5A8A-B154-DC74AA7A647B" name="TBL_ESTUDIANTES_X_CURSO">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:07 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CURSO" id="C871EA2B-B52B-1C49-7F9F-A5378740A55A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="714A9CFB-23F3-9ABB-793E-AD72A4B5F339" referredColumn="E09D50C3-4276-22B2-1414-60F1316AC200"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTUDIANTE" id="A7E25EA7-1251-F1B0-371B-A4F7297B78B9">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD6823FF-FEB3-7581-41DE-A51142C097E9" referredColumn="98B3BA89-C71F-AD00-AA44-5D1A5B70F61B"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="D3FC195D-A70E-08A4-D667-36AE0BE65235">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA" id="FA42C7C1-1167-87C0-F1FE-9423788273CD">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97A32C50-43B7-99C5-9273-8217AE6A2D20" name="TBL_ESTUDIANTES_X_CURSO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:33:12 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C871EA2B-B52B-1C49-7F9F-A5378740A55A"/>
+<colUsage columnID="A7E25EA7-1251-F1B0-371B-A4F7297B78B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C29CA4C-A886-A90D-7FF2-ADC7C47FCA41" name="TBL_ESTUDIANTES_X_CURSO_TBL_CURSOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:44 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C871EA2B-B52B-1C49-7F9F-A5378740A55A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D735D07-DCEB-7E93-DD4B-693AB64DCE66" name="TBL_ESTUDIANTES_X_CURSO_TBL_ESTUDIANTES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:32:49 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E25EA7-1251-F1B0-371B-A4F7297B78B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

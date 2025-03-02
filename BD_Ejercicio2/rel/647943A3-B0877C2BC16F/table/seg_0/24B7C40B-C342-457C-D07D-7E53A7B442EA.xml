@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24B7C40B-C342-457C-D07D-7E53A7B442EA" name="TBL_JEFES_CARRERA">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:25:01 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_JEFE" id="54E8B479-8B69-A297-5C2D-7105E5A278AD">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:29:46 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4833EFAC-D241-BE4D-A82C-710E44D674C4" referredColumn="BC1D0C2B-802A-9606-690D-6E20E4317866"/>
+</associations>
+</Column>
+<Column name="CARRERA" id="4417FF8A-7CA4-F00A-7E1F-3B2890E7B39F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:25:51 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD_DOCENTES_ADMINISTRA" id="3ADDD0AA-17F5-A885-B62E-70312B479CBD">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:25:51 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43A79D44-6AC5-42DB-FCD6-E9FE44D87917" name="TBL_JEFES_CARRERA_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:33:28 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54E8B479-8B69-A297-5C2D-7105E5A278AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A78F5F0-B0E3-DCDE-E512-D7A2CA6BAF0C" name="TBL_JEFES_CARRERA_TBL_EMPLEADOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-12 00:29:46 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54E8B479-8B69-A297-5C2D-7105E5A278AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

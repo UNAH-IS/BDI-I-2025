@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE8E4491-8BC8-4AF2-8B68-F15E97CD2551" containerWithKeyObject="F991A7C4-1939-92E2-80B4-62AE5785020F" localFKIndex="A189C2FE-3A70-A600-BDD2-C8EF4D7819C1" name="TBL_SECCIONES_CONTENIDO_TBL_TIPOS_SECCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:35:42 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_SECCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C919A30D-B1A3-D972-7959-33F80AF92DE1</referredTableID>
+<keyObject>F9F293A5-9C64-DE98-875B-F2386825EA65</keyObject>
+<referredKeyID>F9F293A5-9C64-DE98-875B-F2386825EA65</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_SECCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82768C20-6F6F-BC3F-DF2A-9A73475B2F64" name="TBL_USUARIOS_X_GRUPOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:14 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRUPO" id="E8A2D041-7A84-A71A-3917-D4ABE8D96A4A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43625BC9-C720-E4D6-763D-218FFF0F3DED" referredColumn="933ABC4E-CC73-B74B-1DF3-E9F83AE657B9"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="CFB8E122-D9A6-EDB4-951A-881FBB19E35B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18D7E155-5234-466D-8628-21AC5717D99A" referredColumn="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</associations>
+</Column>
+<Column name="FECHA_REGISTRO" id="0D4D19D0-4E5F-9B6A-2A36-EAD3728303E2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:41 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73CC8608-D09B-88D8-FE6E-1546AC0B9500" name="TBL_USUARIOS_X_GRUPOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:37:22 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A2D041-7A84-A71A-3917-D4ABE8D96A4A"/>
+<colUsage columnID="CFB8E122-D9A6-EDB4-951A-881FBB19E35B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E547F7D5-753D-4E2B-46D6-9F7FB3FDAAD3" name="TBL_USUARIOS_X_GRUPOS_TBL_GRUPOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:47 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A2D041-7A84-A71A-3917-D4ABE8D96A4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ED2F751-CC55-F904-5511-7AA7BC641AE6" name="TBL_USUARIOS_X_GRUPOS_TBL_USUARIOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-11 00:36:57 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB8E122-D9A6-EDB4-951A-881FBB19E35B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

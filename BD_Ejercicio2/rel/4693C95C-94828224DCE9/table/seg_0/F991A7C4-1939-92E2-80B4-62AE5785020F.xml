@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F991A7C4-1939-92E2-80B4-62AE5785020F" name="TBL_SECCIONES_CONTENIDO">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:15 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SECCION" id="CFEB726A-8AED-8E58-9107-6740A32A3291">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:59 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_SECCION" id="75398B10-025E-8D7B-174F-C7BB9402EE7D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:35:42 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE8E4491-8BC8-4AF2-8B68-F15E97CD2551" referredColumn="629DA059-B2F2-A907-1167-033872F17FA8"/>
+</associations>
+</Column>
+<Column name="CODIGO_CURSO" id="7C42BA55-4251-EF05-5636-8432901EFDBA">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:36:13 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C7FC332-570D-5A7F-049C-9AF45AEFDFF4" referredColumn="E09D50C3-4276-22B2-1414-60F1316AC200"/>
+</associations>
+</Column>
+<Column name="TITULO_SECCION" id="CC3AD1F9-DE38-F5BD-E7A3-72F045D87959">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:59 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C4131BC2-894E-DDB2-E84E-0C5B5517F0D6">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:59 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO" id="F7D98746-79C6-FF80-BF56-D43C03E81FD6">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:59 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_PUBLICACION" id="D47D9DC0-ABEF-CBBC-B7F5-86C31061C63C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:36:47 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ULTIMA_ACTUALIZACION" id="124569FA-A42E-87A6-7CDD-4871677F57B8">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:36:47 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37AEEBF7-4AC4-652F-E25C-ADA6AC1CE8A5" name="TBL_SECCIONES_CONTENIDO_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:34:59 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFEB726A-8AED-8E58-9107-6740A32A3291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A189C2FE-3A70-A600-BDD2-C8EF4D7819C1" name="TBL_SECCIONES_CONTENIDO_TBL_TIPOS_SECCIONES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:35:42 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75398B10-025E-8D7B-174F-C7BB9402EE7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EAF59EB-1065-A331-C196-7D89826FEE53" name="TBL_SECCIONES_CONTENIDO_TBL_CURSOS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:36:13 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C42BA55-4251-EF05-5636-8432901EFDBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

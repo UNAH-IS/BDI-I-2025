@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B29A319A-A832-A4AD-F155-CD1F555D62B6" name="TBL_TIPOS_REACCIONES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:44:39 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_REACCION" id="ED6E8ED0-419A-81C8-E84C-9F507EBE8B81">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_REACCION" id="332EA103-5F1B-E5D3-9E64-92A7A2A4929E">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="CB117D6E-A351-7CF2-D769-18670E6E8849">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D32ADA7-26FE-7910-8EBB-578381ABF5D3" name="TBL_TIPOS_REACCIONES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-07 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED6E8ED0-419A-81C8-E84C-9F507EBE8B81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

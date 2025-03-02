@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15BA80D4-4AD7-BFD8-5E64-BB281D6AF71A" name="TBL_USUARIOS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:19:31 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="258A4DD8-F5D8-3239-9C2B-F54186953181">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="39E84986-B4D6-E346-EABF-150A35CA7627">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:23:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C03086D-A4DF-2B9F-09E2-0447B286A0E6" referredColumn="79BAB3A3-F41F-CD55-C39E-AF41D98D7DC7"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="B13B5BBF-52F6-767E-6D55-6831DBF221E7">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="24DA7383-037A-2960-7289-F374C5553C9A">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NICKNAME" id="C46E4B9A-143D-9AFD-2C2A-C2695EAB10C4">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="E1E9BFA2-507F-9449-DBE4-C234D20737A1">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="BCBCDF07-0D78-9872-FA2F-62E2EAA58F63">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO" id="CF4DEABC-6CC0-F59F-F181-2C199927A3E5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_SECUNDARIO" id="1402C391-ECBD-9FA5-129E-715BAC7CE7E5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="61B2497A-92AE-6FFC-EC81-FE10E135DBB3">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="AB931C09-6C0C-F240-C049-C77FC3D23106">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENIA" id="016F2B7A-243A-DE61-6AAD-B69B6B1DD03C">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_NACIMIENTO" id="AE07E1A1-253B-0AC1-3523-326832799586">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:26:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DD27D02-6E79-E4FF-7EFC-C09A155C64C8" referredColumn="183A5258-4DCE-1AE9-238D-33678D008586"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_RESIDENCIA" id="09AB469C-B616-787F-1098-8B8F698F59BC">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:27:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3319AEF-EB71-807B-0E7D-C47CF424FDF1" referredColumn="183A5258-4DCE-1AE9-238D-33678D008586"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F794A754-E48E-47D6-669F-E2229C9A26BD" name="TBL_USUARIOS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:22:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="258A4DD8-F5D8-3239-9C2B-F54186953181"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87513136-FFF1-DE6E-336A-19B308D257D4" name="TBL_USUARIOS_TBL_GENEROS_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:23:42 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E84986-B4D6-E346-EABF-150A35CA7627"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="259F7123-C895-5F0D-C368-3F90098D6682" name="TBL_USUARIOS_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:26:58 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE07E1A1-253B-0AC1-3523-326832799586"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8F04700-4E44-7191-0596-A30AC6A79915" name="TBL_USUARIOS_TBL_LUGARES_FKv2">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:27:05 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09AB469C-B616-787F-1098-8B8F698F59BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

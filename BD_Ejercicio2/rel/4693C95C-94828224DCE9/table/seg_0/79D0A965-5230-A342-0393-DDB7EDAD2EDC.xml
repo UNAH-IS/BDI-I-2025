@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79D0A965-5230-A342-0393-DDB7EDAD2EDC" name="TBL_LUGARES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:16:47 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="A5F52F91-C7CB-CF21-53DE-92D9982B4200">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_LUGAR" id="4061BA32-C197-761E-268A-369E91357314">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:53 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="949CEFE6-B62E-0F35-0342-EF993D93EE30" referredColumn="4AB40C9D-5F86-1BCA-81D1-3993311E27FF"/>
+</associations>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="241444CA-4123-B7B0-5DBF-FF26B0B33336">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:00 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEAEF0C0-8AC4-0B75-861E-F34B5ABD5CD4" referredColumn="A5F52F91-C7CB-CF21-53DE-92D9982B4200"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="31B686CF-294E-622D-F4C8-E87BD582E713">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="1FF9D561-4643-57CB-1E48-C0E5781AE4E5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="A184FC5B-E2D1-D964-6CB8-AD5791D4EAAC">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F740DC0-CF29-537F-5301-8CAF2ABA0115" name="TBL_LUGARES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:22 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5F52F91-C7CB-CF21-53DE-92D9982B4200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01CF8F31-DB89-D470-CFE0-6A3D433AF2B1" name="TBL_LUGARES_TBL_TIPOS_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:17:53 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4061BA32-C197-761E-268A-369E91357314"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95A4F5AB-B7F8-2481-7781-A584DB6D68A8" name="TBL_LUGARES_TBL_LUGARES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:18:00 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241444CA-4123-B7B0-5DBF-FF26B0B33336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

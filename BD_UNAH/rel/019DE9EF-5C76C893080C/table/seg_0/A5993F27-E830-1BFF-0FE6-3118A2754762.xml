@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5993F27-E830-1BFF-0FE6-3118A2754762" name="TBL_FOTOGRAFIAS">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:43:28 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTOGRAFIA" id="331CDC80-0013-C773-698D-157D20205C21">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="E8387AA3-87AE-B58F-1BC3-1A24BE7DA38D">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_FOTOGRAFIA" id="917D7BDB-0AEC-1918-8790-A4101767B96B">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTOGRAFIA" id="27843493-98D6-0919-5E00-C1569E1921E5">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ALBUM" id="0D6D8B31-D28F-60B8-212D-28B388C0AD23">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F60AF8DB-FC85-6E62-A9B0-BF08FEE73397" referredColumn="BD17ED52-5C0C-2F70-91F4-CDB450BADD18"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05BF68FD-9854-BDCA-4AED-919E8C0ACDAF" name="TBL_FOTOGRAFIAS_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:10 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="331CDC80-0013-C773-698D-157D20205C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C236FB3C-3EE9-B4BC-0348-73F9332BBBBE" name="TBL_FOTOGRAFIAS_TBL_ALBUMES_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-05 00:45:38 UTC</createdTime>
+<ownerDesignName>BD_UNAH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D6D8B31-D28F-60B8-212D-28B388C0AD23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

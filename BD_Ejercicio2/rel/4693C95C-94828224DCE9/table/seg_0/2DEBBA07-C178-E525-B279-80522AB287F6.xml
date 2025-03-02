@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DEBBA07-C178-E525-B279-80522AB287F6" name="TBL_EXAMENES">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:44:21 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EXAMEN" id="FA7C46F6-022B-4CD2-5C45-E7622E7B9C3F">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="097E6F22-F70C-CBD6-75CC-A73A44898363" referredColumn="9E2C38DF-495C-D458-88F0-483D213B7C65"/>
+</associations>
+</Column>
+<Column name="NOTA_MAXIMA" id="AE6B7D0F-1233-CD83-E1F4-E8D564D13B86">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTA_MINIMA" id="12A0E0BA-2F55-B09E-D33D-A2E2833142DC">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENUNCIADO" id="43E265D0-D795-F964-BEDD-4DD95161CA11">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:45:04 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25229BDD-02FA-4F5E-182B-F8E6CFE85D9F" name="TBL_EXAMENES_PK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:48:58 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA7C46F6-022B-4CD2-5C45-E7622E7B9C3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7EF8DCF-3231-A77B-6FFC-22A5D3A7BDCE" name="TBL_EXAMENES_TBL_CONTENIDOS_SECCION_FK">
+<createdBy>erick</createdBy>
+<createdTime>2025-02-13 00:47:06 UTC</createdTime>
+<ownerDesignName>BD_Ejercicio2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA7C46F6-022B-4CD2-5C45-E7622E7B9C3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

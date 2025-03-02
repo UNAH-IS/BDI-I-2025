@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_2" id="A232E6E4-7118-6247-76B3-AA1ACD147F1F">
+<createdBy>erick</createdBy>
+<modifiedBy>erick</modifiedBy>
+<createdTime>2025-02-12 00:21:21 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="24B7C40B-C342-457C-D07D-7E53A7B442EA" otype="Table" vid="220CFFAC-DDD8-58EE-5B15-41340A0AD2B4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="485" y="302" width="204" height="113"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="58477907-BC15-4C57-7ABF-D3EBB47E5FDC" otype="Table" vid="9B158453-CE10-3CDB-81A6-0AA9501E6053">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="22" y="71" width="205" height="97"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="6F091D6C-31D1-E4E3-E95F-F94E385AA479" otype="Table" vid="7DBB5430-7613-96A1-3110-4F1206A810C1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="349" y="15" width="279" height="152"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="D8CBA87E-501B-C6F7-896E-034F48ADEE64" otype="Note" vid="AAF0488E-7583-A28E-5FFE-D8D1B203D8B2">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="231" y="199" width="95" height="40"/>
+<comment>JERARQUIA DE ENTIDADES</comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F8658C1F-0355-356F-F364-A57F17F13ECE" otype="Table" vid="F1E64461-2672-C83E-A610-15B5CFEFD50A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="218" y="309" width="203" height="126"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="308ABD8A-5CFF-475B-B9DE-56F72446317C" otype="FKIndexAssociation" vid_source="9B158453-CE10-3CDB-81A6-0AA9501E6053" vid_target="7DBB5430-7613-96A1-3110-4F1206A810C1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="227" y="119"/>
+<point x="349" y="119"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="4833EFAC-D241-BE4D-A82C-710E44D674C4" otype="FKIndexAssociation" vid_source="7DBB5430-7613-96A1-3110-4F1206A810C1" vid_target="220CFFAC-DDD8-58EE-5B15-41340A0AD2B4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="556" y="167"/>
+<point x="556" y="302"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="7F5C65C6-9F7D-77FF-5A46-265F8D1404B4" otype="FKIndexAssociation" vid_source="7DBB5430-7613-96A1-3110-4F1206A810C1" vid_target="7DBB5430-7613-96A1-3110-4F1206A810C1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="626" y="113"/>
+<point x="626" y="113"/>
+<point x="626" y="201"/>
+<point x="486" y="201"/>
+<point x="486" y="167"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D7AB74FD-3A94-3A17-A4BF-4ADE9B9E1BDC" otype="FKIndexAssociation" vid_source="7DBB5430-7613-96A1-3110-4F1206A810C1" vid_target="F1E64461-2672-C83E-A610-15B5CFEFD50A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="385" y="167"/>
+<point x="385" y="309"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
